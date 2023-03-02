@@ -37,7 +37,6 @@ plot(f, A);
 
 [v, i] = maxk(A, 1);
 ff = f(i);
-ph = F(i);
 
-pulse = 2 * Fs * ff;
-disp(pulse);
+bpm = 60 * ff;
+disp(bpm);
